@@ -26,6 +26,7 @@ export default function Header({ onLoginClick }) {
               </a>
             </div>
           </nav>
+          
 
           {/* Social icons and Auth buttons */}
           <div className="flex items-center gap-4">
