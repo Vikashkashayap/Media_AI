@@ -122,6 +122,7 @@ export default function ChatInputBox({
   const handleExpandChatBox = () => {
     setIsChatBoxExpanded(!isChatBoxExpanded);
   };
+  
 
   return (
     <div className="border-t border-gray-700/50 bg-gray-900/50 backdrop-blur-sm p-2 sm:p-3 flex-shrink-0 relative z-10">

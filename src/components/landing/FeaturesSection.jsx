@@ -7,6 +7,7 @@ export default function FeaturesSection() {
           <circle cx="8.5" cy="8.5" r="1.5" />
           <polyline points="21 15 16 10 5 21" />
         </svg>
+        
       ),
       title: 'AI Image Generation',
       description: 'Create stunning visuals with AI-powered image generation. Just describe what you want, and watch it come to life.',

@@ -11,6 +11,7 @@ export default function Footer() {
               <Logo linkTo="/" size="default" />
             </div>
           </div>
+          
 
           {/* Resources Column */}
           <div>

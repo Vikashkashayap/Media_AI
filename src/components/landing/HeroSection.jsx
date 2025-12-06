@@ -44,6 +44,7 @@ export default function HeroSection({ onChatSubmit }) {
             <span className="text-gray-300 text-xs">Introducing MediaLab AI V2</span>
           </div>
         </div>
+        
 
         {/* Main heading - reduced size */}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-5 leading-tight text-center">

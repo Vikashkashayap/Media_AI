@@ -39,6 +39,7 @@ export default function LandingPage() {
       navigate('/chat');
     }
   };
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#0a0e27] via-[#0f1429] to-[#0a0e27]">

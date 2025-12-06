@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
+
 export default function ChatHeader({
   isMobileSidebarOpen,
   setIsMobileSidebarOpen,
@@ -37,6 +38,7 @@ export default function ChatHeader({
         setShowHeaderSettings(false);
       }
     };
+
 
     if (showHeaderSettings) {
       document.addEventListener('mousedown', handleClickOutside);

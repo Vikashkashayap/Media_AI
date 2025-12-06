@@ -2,6 +2,7 @@ import { SearchIcon, SettingsIcon } from "./Icons";
 import WorkspaceSwitcher from "./workspaces/WorkspaceSwitcher";
 import Logo from "./landing/Logo";
 
+
 export default function ChatSidebar({
   isSidebarCollapsed,
   setIsSidebarCollapsed,
@@ -66,6 +67,7 @@ export default function ChatSidebar({
           onClick={() => setIsMobileSidebarOpen(false)}
         />
       )}
+
       
       {/* Left Sidebar */}
       <aside className={`

@@ -6,6 +6,7 @@ export default function ImagePreviewModal({ show, imageUrl, onClose, onShare, on
       className="fixed inset-0 bg-black/90 backdrop-blur-sm flex items-center justify-center z-50 p-4"
       onClick={onClose}
     >
+      
       <div className="relative max-w-7xl max-h-[90vh] w-full h-full flex items-center justify-center">
         <button
           onClick={onClose}

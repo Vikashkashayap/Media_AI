@@ -106,6 +106,7 @@ export default function ChatMessages({
       }));
     }
   };
+  
 
   const getStatusBadgeClass = (status) => {
     switch (status) {

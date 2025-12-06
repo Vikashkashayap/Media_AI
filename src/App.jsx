@@ -8,9 +8,11 @@ import ProtectedRoute from './components/ProtectedRoute';
 import WorkspaceDashboard from './components/workspaces/WorkspaceDashboard';
 import ConnectAccountsPage from './components/ConnectAccountsPage';
 
+
 const App = () => {
   return (
     <BrowserRouter>
+
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/signup" element={<CreateAccountPage />} />

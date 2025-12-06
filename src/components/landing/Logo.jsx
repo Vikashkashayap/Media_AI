@@ -21,6 +21,7 @@ export default function Logo({ className = '', linkTo = '/', size = 'default' })
       <Link to={linkTo} className="group flex items-center">
         <LogoContent />
       </Link>
+      
     );
   }
 

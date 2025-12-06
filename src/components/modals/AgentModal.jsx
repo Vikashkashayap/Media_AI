@@ -6,6 +6,7 @@ export default function AgentModal({ show, onClose }) {
       className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4"
       onClick={onClose}
     >
+      
       <div 
         className="bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl p-6 w-full max-w-lg"
         onClick={(e) => e.stopPropagation()}

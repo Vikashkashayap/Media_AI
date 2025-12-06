@@ -111,6 +111,7 @@
   .typing-cursor {
     animation: blink 1s infinite;
   }
+  
 
   /* Wave animation */
   @keyframes wave {

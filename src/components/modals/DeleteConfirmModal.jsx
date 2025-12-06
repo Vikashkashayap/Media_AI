@@ -13,6 +13,7 @@ export default function DeleteConfirmModal({ show, onClose, onConfirm }) {
             onClick={onClose}
             className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-700/50 rounded-lg transition-all font-medium"
           >
+            
             Cancel
           </button>
           <button

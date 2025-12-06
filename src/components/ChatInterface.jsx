@@ -2804,6 +2804,7 @@ export default function ChatInterface() {
       timeouts.forEach(timeout => clearTimeout(timeout));
     };
   }, [streamingMessages, messages]);
+  
 
   return (
     <div className="h-screen w-screen bg-gradient-to-b from-[#0a0e27] via-[#0f1429] to-[#0a0e27] flex overflow-hidden relative">
